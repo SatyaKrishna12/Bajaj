@@ -26,7 +26,7 @@ function Card({ doctor }) {
         </div>
         <div className="doctor-fee-booking">
           <div className="doctor-fee" data-testid="doctor-fee">
-            ₹ {doctor.fees}
+            {doctor.fees}
           </div>
           <button className="book-appointment-btn">
             Book Appointment
