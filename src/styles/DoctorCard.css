@@ -1,0 +1,90 @@
+.doctor-card {
+    width: 100%;
+    border-radius: 16px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+
+    .doctor-card-row {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .doctor-photo-container {
+    flex: 0 0 100px;
+    height: 100px;
+  }
+  
+  .doctor-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #f3f4f6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  
+  .doctor-info {
+    flex: 1;
+    min-width: 0; 
+  }
+  
+  .doctor-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+    .doctor-name {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+    line-height: 1.3;
+  }
+  
+  .doctor-specialty {
+    margin: 0;
+    font-size: 14px;
+    color: #4b5563;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .doctor-experience {
+    margin: 0;
+    font-size: 14px;
+    color: #6b7280;
+    display: flex;
+    align-items: center;
+  }
+  
+  .doctor-fee-booking {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+  }
+  
+  .doctor-fee {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f2937;
+  }
+  
+  .book-appointment-btn {
+    padding: 10px 16px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+   
+  }
+  
+ 
